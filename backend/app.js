@@ -8,7 +8,6 @@ const Books = require("./routes/book");
 const Favourite = require("./routes/favourite");
 const Cart = require("./routes/cart");
 const Order = require("./routes/order");
-const bcrypt = require("bcryptjs");
 
 // Configure CORS
 app.use(
