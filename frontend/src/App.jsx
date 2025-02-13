@@ -13,7 +13,7 @@ import ViewBookDetails from "./components/ViewBookDetails/ViewBookDetails.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { authActions } from "./store/auth.js";
 import Favourite from "./components/Profile/Favourite.jsx";
-import UserOrderHistory from "./components/Profile/UserOrderHistory.jsx";
+// import UserOrderHistory from "./components/Profile/UserOrderHistory.jsx";
 import Settings from "./components/Profile/Settings.jsx";
 import AllOrders from "./pages/AllOrders.jsx";
 import AddBook from "./pages/AddBook.jsx";

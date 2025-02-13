@@ -8,6 +8,7 @@ const Books = require("./routes/book");
 const Favourite = require("./routes/favourite");
 const Cart = require("./routes/cart");
 const Order = require("./routes/order");
+const path = require("path");
 
 // Configure CORS
 app.use(
@@ -18,6 +19,8 @@ app.use(
 	})
 );
 
+const _dirname = path.resolve();
+
 app.use(express.json());
 
 // Routes
@@ -26,6 +29,11 @@ app.use("/api/v1", Books);
 app.use("/api/v1", Favourite);
 app.use("/api/v1", Cart);
 app.use("/api/v1", Order);
+
+app.use(express.static(path.join(_dirname, "/frontend/dist")));
+app.get("*", (_, res) => {
+	res.sendFile(path.resolve(_dirname, "frontend", "dist", "index.html"));
+});
 
 // Creating port
 const PORT = process.env.PORT || 1000;
