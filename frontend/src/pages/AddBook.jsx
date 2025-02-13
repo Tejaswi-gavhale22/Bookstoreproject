@@ -34,7 +34,7 @@ const AddBook = () => {
 			} else {
 				// Sending request to API
 				const response = await axios.post(
-					"http://localhost:1000/api/v1/add-book",
+					"https://bookstoreproject-2euo.onrender.com/api/v1/add-book",
 					Data,
 					{ headers }
 				);

@@ -29,7 +29,7 @@ const AllOrders = () => {
 		const fetchOrders = async () => {
 			try {
 				const response = await axios.get(
-					"http://localhost:1000/api/v1/get-all-orders",
+					"https://bookstoreproject-2euo.onrender.com/api/v1/get-all-orders",
 					{ headers } // Include headers for authorization
 				);
 				setAllOrders(response.data.data); // Store orders in state

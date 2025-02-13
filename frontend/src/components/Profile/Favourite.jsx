@@ -18,7 +18,7 @@ const Favourite = () => {
 		try {
 			// Sending a GET request to fetch favourite books
 			const response = await axios.get(
-				"http://localhost:1000/api/v1/get-favourite-books",
+				"https://bookstoreproject-2euo.onrender.com/api/v1/get-favourite-books",
 				{ headers }
 			);
 			// Storing the fetched favourite books in the state

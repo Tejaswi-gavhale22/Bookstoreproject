@@ -13,7 +13,7 @@ const path = require("path");
 // Configure CORS
 app.use(
 	cors({
-		origin: "http://localhost:5173", // Frontend URL
+		origin: "https://bookstoreproject-2euo.onrender.com", // Frontend URL
 		methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
 		credentials: true, // If cookies are being used
 	})

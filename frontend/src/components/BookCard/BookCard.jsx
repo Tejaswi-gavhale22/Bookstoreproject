@@ -16,7 +16,7 @@ const BookCard = ({ data, favourite }) => {
 	const handleRemoveBook = async () => {
 		try {
 			const response = await axios.put(
-				"http://localhost:1000/api/v1/remove-book-to-favourite",
+				"https://bookstoreproject-2euo.onrender.com/api/v1/remove-book-to-favourite",
 				{},
 				{ headers }
 			);

@@ -37,7 +37,7 @@ const SignUp = () => {
 			} else {
 				// API call to sign-up endpoint
 				const response = await axios.post(
-					"http://localhost:1000/api/v1/sign-up", // API endpoint
+					"https://bookstoreproject-2euo.onrender.com/api/v1/sign-up", // API endpoint
 					values // Data to be sent
 				);
 				alert(response.data.message); // Show success message
