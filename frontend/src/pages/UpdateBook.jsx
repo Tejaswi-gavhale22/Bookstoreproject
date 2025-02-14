@@ -38,7 +38,7 @@ const UpdateBook = () => {
 
 			console.log("Sending update request to API...");
 			const response = await axios.put(
-				`http://localhost:1000/api/v1/update-book/${id}`,
+				`https://bookstoreproject-2euo.onrender.com/api/v1/update-book/${id}`,
 				Data,
 				{ headers }
 			);
@@ -59,7 +59,7 @@ const UpdateBook = () => {
 			try {
 				console.log("Fetching book details...");
 				const response = await axios.get(
-					`http://localhost:1000/api/v1/get-book-by-id/${id}`
+					`https://bookstoreproject-2euo.onrender.com/api/v1/get-book-by-id/${id}`
 				);
 				setData(response.data.data);
 			} catch (error) {
