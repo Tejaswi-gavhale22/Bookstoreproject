@@ -32,7 +32,6 @@ router.post("/add-book", authenticateToken, async (req, res) => {
 });
 
 // Update book
-// Update book
 router.put("/update-book/:id", authenticateToken, async (req, res) => {
 	try {
 		const { id } = req.params;
