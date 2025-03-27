@@ -1,11 +1,11 @@
 const About = () => {
 	return (
-		<div className="mt-12 px-6 flex flex-col md:flex-row items-center gap-6">
-			{/* Left Side - Image */}
-			<div className="mt-10 px-4">
-				<h2 className="text-3xl  text-yellow-100 mb-4 text-left">
-					About Our Bookstore
-				</h2>
+		<div className="mt-10 px-4">
+			<h2 className="text-3xl  text-yellow-100 mb-4 text-left">
+				About Our Bookstore
+			</h2>
+			<div className="mt-12 px-6 flex flex-col md:flex-row items-center gap-6">
+				{/* Left Side - Image */}
 
 				<div className="w-full md:w-1/3">
 					<img
