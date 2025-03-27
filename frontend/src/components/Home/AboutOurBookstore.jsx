@@ -21,14 +21,12 @@ const About = () => {
 						of books, including new, discounted, and second-hand options, along
 						with study materials and notes. Our mission is to make learning
 						accessible and affordable for everyone.
-					</p>
-					<p className="text-gray-300 mt-4 text-left">
-						Explore books from various categories like Competitive Exams,
-						Engineering, Medical, Pharmacy, Science, and more. Our platform is
-						designed to help students find the right resources easily and
-						conveniently.
-					</p>
-					<p className="text-gray-300 mt-4 text-left">
+						<br>
+							Explore books from various categories like Competitive Exams,
+							Engineering, Medical, Pharmacy, Science, and more. Our platform is
+							designed to help students find the right resources easily and
+							conveniently.
+						</br>
 						Start your learning journey with us today and discover a world of
 						knowledge at your fingertips!
 					</p>
