@@ -16,7 +16,7 @@ const Categories = () => {
 					<div key={index} className="flex flex-col items-center">
 						<span className="text-4xl mb-3">{category.icon}</span>{" "}
 						{/* Space added here */}
-						<p className="mt-2 font-medium">{category.title}</p>
+						<p className="mt-3 font-medium">{category.title}</p>
 					</div>
 				))}
 			</div>
