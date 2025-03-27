@@ -3,7 +3,6 @@ import React from "react";
 import Hero from "../components/Home/Hero";
 import RecentlyAdded from "../components/Home/RecentlyAdded";
 import Categories from "../components/Home/Categories";
-import AboutOurBookstore from "../components/Home/AboutOurBookstore";
 
 const Home = () => {
 	return (
@@ -11,7 +10,6 @@ const Home = () => {
 			<Hero />
 			<RecentlyAdded />
 			<Categories />
-			<AboutOurBookstore />
 		</div>
 	);
 };
