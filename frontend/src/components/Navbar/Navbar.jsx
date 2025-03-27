@@ -12,7 +12,7 @@ const Navbar = () => {
 			link: "/",
 		},
 		{
-			title: "All Secondhand-Books",
+			title: "All Books",
 			link: "/all-books",
 		},
 		{

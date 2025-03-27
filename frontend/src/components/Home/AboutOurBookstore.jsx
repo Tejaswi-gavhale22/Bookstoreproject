@@ -2,19 +2,21 @@ const About = () => {
 	return (
 		<div className="mt-12 px-6 flex flex-col md:flex-row items-center gap-6">
 			{/* Left Side - Image */}
-			<div className="w-full md:w-1/3">
-				<img
-					src="Book.jpg"
-					alt="Bookstore"
-					className="rounded-lg shadow-lg w-full"
-				/>
-			</div>
-
-			{/* Right Side - Text Content */}
-			<div className="w-full md:w-2/3">
-				<h2 className="text-3xl font-bold text-yellow-400 mb-4 text-left">
+			<div className="mt-10 px-4">
+				<h2 className="text-3xl  text-yellow-100 mb-4 text-left">
 					About Our Bookstore
 				</h2>
+
+				<div className="w-full md:w-1/3">
+					<img
+						src="Book.jpg"
+						alt="Bookstore"
+						className="rounded-lg shadow-lg w-full"
+					/>
+				</div>
+
+				{/* Right Side - Text Content */}
+
 				<p className="text-gray-300 text-left">
 					Welcome to our student-friendly bookstore! We provide a wide range of
 					books, including new, discounted, and second-hand options, along with
