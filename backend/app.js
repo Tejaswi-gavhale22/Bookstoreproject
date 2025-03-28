@@ -1,6 +1,7 @@
+require("dotenv").config({ path: "./.env" });
+
 const express = require("express");
 const app = express();
-require("dotenv").config();
 const cors = require("cors");
 require("./connection/connection"); // MongoDB connection
 const User = require("./routes/user");
