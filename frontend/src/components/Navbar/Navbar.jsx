@@ -25,7 +25,6 @@ const Navbar = () => {
 		},
 		{
 			title: "Admin Profile",
-
 			link: "/profile",
 		},
 	];
